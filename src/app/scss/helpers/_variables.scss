@@ -1,0 +1,56 @@
+//? Основные цвета
+//primary
+$primary-01: #61AFD2;
+$primary-01-opacity: rgba(97, 175, 210, 0.4);
+$primary-02: #4497BC;
+$primary-03: #E7F6FC;
+//base
+$base-01: #0B0B0B;
+$base-02: #3B3B3B;
+$base-03: #707070;
+$base-04: #E6E6E6;
+$base-05: #F5F5F5;
+$base-06: #FFFFFF;
+//secondary
+$secondary-01: #27AE60;
+$secondary-02: #F2C94C;
+$secondary-03: #EB5757;
+//other
+$checkbox-black: #0B0B0B;
+$checkbox-white: #FFFFFF;
+$checkbox-gray: #D9D9D9;
+$checkbox-brown: #BE7E50;
+$checkbox-hover: $base-04;
+$checkbox-active: $primary-01;
+//select
+$select-hover: #F8F8FA;
+
+//? Z-index
+$header-z-index: 55;
+
+//? По умолчанию
+$base_fz: 16px; //? Размер шрифта по умолчанию 16px
+$base_ff: 'Montserrat-Regular', sans-serif; //? Шрифт по умолчанию
+$base_bg: $base-06; //? Цвет фона по умолчанию
+$base_color: $base-01; //? Цвет текста по умолчанию
+
+//! Направление right-to-left или left-to-right
+// $web-direction: rtl;
+$web-direction: ltr;
+
+//? Переменные семейств шрифтов
+$ff_Mb: 'Montserrat-Bold', sans-serif;
+$ff_Mm: 'Montserrat-Medium', sans-serif;
+$ff_Mr: 'Montserrat-Regular', sans-serif;
+
+
+//? Толщина семейства шрифтов
+$th: 100; // Thin
+$el: 200; // Extra Light
+$l: 300; // Light
+$r: 400; // Regular
+$m: 500; // Medium
+$sb: 600; // SemiBold
+$b: 700; // Bold
+$eb: 800; // Extra Bold
+$bl: 900; // Super
